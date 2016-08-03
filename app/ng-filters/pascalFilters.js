@@ -1,7 +1,7 @@
 angular.module("PascalExam")
 	.filter('filterPtRow', function () {
         return function (values) {
-            return values.join(', ');
+            return values.join(' ');
         };
     })
 	.filter('filterPtRowColor', function () {
