@@ -18,6 +18,11 @@ Pascal's triangle exam for Upwork
 
 `bower install`
 
+### Grunt
+Run grunt command to perform building tasks
+
+`grunt`
+
 ### Run on HTTP Server
 `http-server .`
 
