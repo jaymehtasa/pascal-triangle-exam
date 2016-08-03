@@ -24,6 +24,8 @@ Run grunt command to perform building tasks
 `grunt`
 
 ### Run on HTTP Server
+In another terminal run `http-server`
+
 `http-server .`
 
 ### Open App in Browser
