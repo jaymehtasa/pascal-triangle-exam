@@ -1,1 +1,1 @@
-angular.module("PascalExam", []);
+angular.module("PascalExam", ['ngStorage']);

@@ -5,12 +5,8 @@
 	<title>HTML Examples</title>
 </head>
 
-<body ng-controller="pascalClient">
-	Row in Pascal's Triangle: <br/> 
-	<input type="number" ng-model="ptRows" ng-change="onPascalRowChange()">
-	
-	<pascal-triangle pascal-rows="pascalRows"></pascal-triangle>
-
+<body>
+	<div ng-include="'templates/home.html'"></div>
 	<script src="dist/pascal-all.min.js"></script>
 </body>
 

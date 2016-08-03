@@ -1,0 +1,7 @@
+<div ng-init="init()" ng-controller="pascalClient">
+	Row in Pascal's Triangle: <br/> <br/>
+	<input type="number" ng-model="ptRows" ng-change="onPascalRowChange()">
+	<label>{{msg}}</label>
+
+	<pascal-triangle pascal-rows="pascalRows"></pascal-triangle>
+</div>

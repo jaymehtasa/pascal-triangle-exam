@@ -15,6 +15,7 @@ module.exports = function (grunt) {
             js: {
                 src: [
 					'bower_components/angular/angular.min.js',
+                    'bower_components/ngstorage/ngStorage.min.js',
 				],
                 dest: 'dist/pascal-vendor.bundle.min.js',
                 stripBanners: {
